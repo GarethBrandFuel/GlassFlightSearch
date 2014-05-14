@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- THIS IS A VERY BAD ANDROID DEFAULT THING -->
+    <!-- GLASS APPS HAVE NO THEME -->
+    <!-- GIVING THEM A THEME DOES BAD TERRIBLE THINGS TO THE APP AND ALL WHO SEE IT -->
+    <!-- ONLY USE THIS FOR SUB-THEMEING -->
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--</style>-->
+
+</resources>
