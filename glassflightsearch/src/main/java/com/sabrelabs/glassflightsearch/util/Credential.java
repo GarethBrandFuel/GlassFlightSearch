@@ -23,15 +23,12 @@ public class Credential {
         properties.load(input);
     }
 
-    public String getUser() { return properties.getProperty("user"); }
-    public String getGroup() { return properties.getProperty("group"); }
-    public String getDomain() { return properties.getProperty("domain"); }
-    public String getPassword() { return properties.getProperty("password"); }
+    public String getUser() { return properties.getProperty("client_id"); }
+    public String getPassword() { return properties.getProperty("client_secret"); }
     public String getUri() { return properties.getProperty("uri"); }
 
     private String getClientID() {
-        String str = "V1:" + this.getUser() + ":" + this.getGroup() + ":" + this.getDomain();
-        byte[] encodedBytes = Base64.encodeBase64(str.getBytes());
+        byte[] encodedBytes = Base64.encodeBase64(this.getUser().getBytes());
         return new String(encodedBytes);
     }
 

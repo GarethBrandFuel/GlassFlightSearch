@@ -16,10 +16,8 @@ public class CredentialTest extends TestCase {
     }
 
     public void testGetCredential() throws IOException {
-        assertEquals("8987", credential.getUser());
-        assertEquals("STPS", credential.getGroup());
-        assertEquals("EXT", credential.getDomain());
-        assertEquals("uR9gFO02", credential.getPassword());
+        assertEquals("V1:1234:ABCD:XYZ", credential.getUser());
+        assertEquals("SeKr1T", credential.getPassword());
         assertEquals("api.test.sabre.com", credential.getUri());
     }
 

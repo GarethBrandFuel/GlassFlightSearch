@@ -10,6 +10,15 @@ This App requires to have an existing Sabre Dev Studio Key. Update the credentia
 
 For more information on registering to get a Test Key account please visit Sabre Dev Studio@http://developer.sabre.com
 
+Voice Commands
+==============
+
+The following voice commands are available:
+
+* OK Glass, find a flight from DFW to SFO in July
+* OK Glass, find a flight from DFW to the mountains
+* OK Glass, find a flight from MIA to LHR August 6th through the 10th
+
 Additional Resources
 ====================
 Sabre API documentation and resources can be found http://developer.sabre.com
